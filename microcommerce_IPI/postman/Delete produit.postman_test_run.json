@@ -1,0 +1,128 @@
+{
+	"id": "550a5257-3eac-4caa-b26c-4d19a583cb60",
+	"name": "Delete produit",
+	"timestamp": "2020-04-30T14:06:46.529Z",
+	"collection_id": "5c15f607-54f9-4252-bd55-5e39e2ebe438",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5f8906bb-5bb1-42af-88c4-5e204c460202",
+			"name": "http://localhost:9090/Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "731cb0bc-8958-4978-b70e-1125a344aecb",
+			"name": "http://localhost:9090/Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 14,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				14
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3e196bd5-20ea-4642-93ff-83a1eca82708",
+			"name": "http://localhost:9090/Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1c728238-44f5-46c5-84f8-eeffb9f6b63d",
+			"name": "http://localhost:9090/Produits/4",
+			"url": "http://localhost:9090/Produits/4",
+			"time": 18,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				18
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3c3b82bb-de0f-460c-acc1-9a720bedf9e6",
+			"name": "http://localhost:9090/Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 46,
+	"collection": {
+		"requests": [
+			{
+				"id": "5f8906bb-5bb1-42af-88c4-5e204c460202",
+				"method": "GET"
+			},
+			{
+				"id": "731cb0bc-8958-4978-b70e-1125a344aecb",
+				"method": "POST"
+			},
+			{
+				"id": "3e196bd5-20ea-4642-93ff-83a1eca82708",
+				"method": "GET"
+			},
+			{
+				"id": "1c728238-44f5-46c5-84f8-eeffb9f6b63d",
+				"method": "DELETE"
+			},
+			{
+				"id": "3c3b82bb-de0f-460c-acc1-9a720bedf9e6",
+				"method": "GET"
+			}
+		]
+	}
+}

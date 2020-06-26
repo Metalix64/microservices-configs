@@ -1,0 +1,84 @@
+{
+	"id": "3b589eb1-5d0e-4497-8eb4-2a6f867072c6",
+	"name": "Prix Limit",
+	"timestamp": "2020-04-30T13:57:55.938Z",
+	"collection_id": "a61ac713-8de7-486d-a01b-9d1fcf56f8f7",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7025b7eb-9d4e-4486-ae44-f54dce57476d",
+			"name": "http://localhost:9090/Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "55cb3f9d-9763-4aaf-b377-95345af417f9",
+			"name": "http://localhost:9090/test-prix/produits/200",
+			"url": "http://localhost:9090/test-prix/produits/200",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "526ea4f8-359a-44ca-9d0f-188a6e7ce0de",
+			"name": "http://localhost:9090/test-prix/produits/100",
+			"url": "http://localhost:9090/test-prix/produits/100",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 13,
+	"collection": {
+		"requests": [
+			{
+				"id": "7025b7eb-9d4e-4486-ae44-f54dce57476d",
+				"method": "GET"
+			},
+			{
+				"id": "55cb3f9d-9763-4aaf-b377-95345af417f9",
+				"method": "GET"
+			},
+			{
+				"id": "526ea4f8-359a-44ca-9d0f-188a6e7ce0de",
+				"method": "GET"
+			}
+		]
+	}
+}

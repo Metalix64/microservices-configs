@@ -1,0 +1,40 @@
+{
+	"id": "592f17e2-45df-4442-a4b9-09691e040024",
+	"name": "Tri Alpha",
+	"timestamp": "2020-04-30T14:08:51.543Z",
+	"collection_id": "70558cf4-dce9-4e1e-a813-4cd4bba768ce",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a4421d74-40ed-4d15-9cf5-bac8080a865e",
+			"name": "http://localhost:9090/Produits/Trier",
+			"url": "http://localhost:9090/Produits/Trier",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				12
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 12,
+	"collection": {
+		"requests": [
+			{
+				"id": "a4421d74-40ed-4d15-9cf5-bac8080a865e",
+				"method": "GET"
+			}
+		]
+	}
+}

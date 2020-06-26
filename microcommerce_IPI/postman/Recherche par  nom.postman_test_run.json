@@ -1,0 +1,62 @@
+{
+	"id": "b56b5b9c-6946-44cb-8d7f-f6641bf0d299",
+	"name": "Recherche par  nom",
+	"timestamp": "2020-04-30T13:58:08.718Z",
+	"collection_id": "ba38ddc3-550d-4741-a838-fbfbd399ea58",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ffaeb557-4ca0-4470-bc21-a2e74077067b",
+			"name": "http://localhost:9090/Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "53721299-8fb1-402d-9702-85f3daa6fba8",
+			"name": "http://localhost:9090/test-nom/produits/Ordinateur",
+			"url": "http://localhost:9090/test-nom/produits/Ordinateur",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 14,
+	"collection": {
+		"requests": [
+			{
+				"id": "ffaeb557-4ca0-4470-bc21-a2e74077067b",
+				"method": "GET"
+			},
+			{
+				"id": "53721299-8fb1-402d-9702-85f3daa6fba8",
+				"method": "GET"
+			}
+		]
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"id": "38ba2dcf-b426-442d-8452-021d30594ee3",
+	"name": "Ajout d'un produit OK",
+	"timestamp": "2020-04-30T13:51:46.089Z",
+	"collection_id": "17f3272d-20a8-43a9-9d7c-3c2e10ec63dc",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a4a81d8c-ac3d-45dc-a947-acde1e492c30",
+			"name": "http://localhost:9090/Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1bee15b3-be57-43e5-b73c-c0953e0914f6",
+			"name": "http://localhost:9090/Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 11,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				11
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "84a5d88a-d48b-44fd-b39a-e5c530fc5b82",
+			"name": "http://localhost:9090/Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 24,
+	"collection": {
+		"requests": [
+			{
+				"id": "a4a81d8c-ac3d-45dc-a947-acde1e492c30",
+				"method": "GET"
+			},
+			{
+				"id": "1bee15b3-be57-43e5-b73c-c0953e0914f6",
+				"method": "POST"
+			},
+			{
+				"id": "84a5d88a-d48b-44fd-b39a-e5c530fc5b82",
+				"method": "GET"
+			}
+		]
+	}
+}

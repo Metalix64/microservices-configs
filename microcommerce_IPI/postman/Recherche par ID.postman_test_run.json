@@ -1,0 +1,84 @@
+{
+	"id": "e00ec621-fd0a-48d5-a2d8-8f1fa96f2612",
+	"name": "Recherche par ID",
+	"timestamp": "2020-04-30T13:53:58.077Z",
+	"collection_id": "32b9a28a-c6ed-4cd3-ae39-a7c341959a70",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "bafa418e-a0a4-4762-b913-20edf23eebb0",
+			"name": "http://localhost:9090/Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "71aec6e3-7edb-4cab-ae02-959adca1423f",
+			"name": "http://localhost:9090/Produits/2",
+			"url": "http://localhost:9090/Produits/2",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "dc4a2897-3711-4647-9179-fc00313b9b47",
+			"name": "http://localhost:9090/Produits/10",
+			"url": "http://localhost:9090/Produits/10",
+			"time": 8,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 18,
+	"collection": {
+		"requests": [
+			{
+				"id": "bafa418e-a0a4-4762-b913-20edf23eebb0",
+				"method": "GET"
+			},
+			{
+				"id": "71aec6e3-7edb-4cab-ae02-959adca1423f",
+				"method": "GET"
+			},
+			{
+				"id": "dc4a2897-3711-4647-9179-fc00313b9b47",
+				"method": "GET"
+			}
+		]
+	}
+}

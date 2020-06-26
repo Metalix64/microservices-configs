@@ -1,0 +1,40 @@
+{
+	"id": "d0bc6dfe-de21-411f-a22e-75e751be07ea",
+	"name": "Marge PDT",
+	"timestamp": "2020-04-30T14:09:18.614Z",
+	"collection_id": "24a84908-9eb2-4520-ab51-d385731d180e",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5ffa1bd9-d47a-4c47-a17e-37229e85648c",
+			"name": "http://localhost:9090/Produits/AdminProduits",
+			"url": "http://localhost:9090/Produits/AdminProduits",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5,
+	"collection": {
+		"requests": [
+			{
+				"id": "5ffa1bd9-d47a-4c47-a17e-37229e85648c",
+				"method": "GET"
+			}
+		]
+	}
+}
